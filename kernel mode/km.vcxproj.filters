@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="impl">
+      <UniqueIdentifier>{a76ec107-4aca-4992-a317-5b6a6046279e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{eeb0e4c2-7230-49e2-8a89-7808b37a3c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\features">
+      <UniqueIdentifier>{621bd25a-233e-472c-b832-d44a27ea9822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\imports.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\structures.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\crt.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\encrypt.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\cache.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\dispatch.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\interface.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\allocate_virtual.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\free_virtual.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\module_base.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\protect_virtual.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\read_write.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\swap_virtual.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\cave.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\inject_mouse.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\signature_scan.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\query_virtual.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\features\process_context.h">
+      <Filter>impl\features</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\utils.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
