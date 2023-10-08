@@ -1,8 +1,4 @@
 # PredictionFN-Fortnite-External
-Termed and the server with it, can't be asked to finish this project so here is the source. Don't know what patch it was last updated too
+unfinished fortnite made by LeProxy
 
-Driver is a code cave IOCTL driver that hijacks a system driver's boot section that work's with memory and storage manipulation, it does not have any CR3 EOS decryption like route trashing and CR3 DTB decrypting (mean's you can't skid with it on EAC). I haven't finished the loader and if you try to use the client to server it won't work since I host it from my PC. The source has my GetPlayerViewPoint hook for silent aim and view angles for memory aim, most of you won't be able to figure out how to use the driver to hook and etc but I might release a example on it 
-
-
-
-
+offsets and SDK aren't updated, patching expoits won't work since I haven't dumped the module recently and gotten the new functions to patch, and the only exploit that probably will work is the silent aim. Source is an external that use's the ImGui Framework with DX11 backend, the server streamer won't work (I host it directly from my desktop) and the loader's protection isnpretty outdated. The driver is a code cave IOCTL driver that hijacks a sysetm driver that manages storage operations and have RWXA and more
